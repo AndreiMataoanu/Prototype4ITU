@@ -7,19 +7,24 @@
       "symbol": "var_direction"
     },
     {
+      "id": "0",
+      "name": "ChargeMeter",
+      "symbol": "var_chargemeter_0"
+    },
+    {
+      "id": "f89f819e-432a-40ad-a40d-b0ba792cfbb9__L0",
+      "name": "DrainTimer",
+      "symbol": "var_draintimer"
+    },
+    {
+      "id": "acd4f876-d705-4e92-951c-dbbd9a1016d0__L0",
+      "name": "DrainTimer",
+      "symbol": "var_draintimer_0"
+    },
+    {
       "id": "22a5c5af-485b-48f4-892c-476a55bf54c2__L1",
-      "name": "RunAway",
-      "symbol": "var_runaway_0"
-    },
-    {
-      "id": "22a5c5af-485b-48f4-892c-476a55bf54c2__L2",
-      "name": "NormalWalk",
-      "symbol": "var_normalwalk_0"
-    },
-    {
-      "id": "22a5c5af-485b-48f4-892c-476a55bf54c2__L3",
-      "name": "MoveTimer",
-      "symbol": "var_movetimer"
+      "name": "Cooldown",
+      "symbol": "var_cooldown"
     }
   ]
 }

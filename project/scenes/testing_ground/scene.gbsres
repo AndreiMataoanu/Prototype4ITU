@@ -15,10 +15,20 @@
   "symbol": "scene_1",
   "x": 208,
   "y": 152,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 2
+      },
+      "id": "ec68ffec-c2bb-457b-8720-17a1cf708e33"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
   "autoFadeEventCollapse": false,
-  "labelColor": ""
+  "labelColor": "",
+  "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
 }
