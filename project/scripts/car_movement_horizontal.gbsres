@@ -1,0 +1,50 @@
+{
+  "_resourceType": "script",
+  "id": "f3ab380a-d8db-4326-955e-870d28876846",
+  "name": "Car Movement Horizontal",
+  "description": "Moves the car horizontally",
+  "variables": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Car"
+    }
+  },
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": 19
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "d21467f6-b848-41d2-b979-6ae491754fd9"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "number",
+          "value": -19
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "a4713875-f411-41dc-b065-d3714ca12673"
+    }
+  ]
+}

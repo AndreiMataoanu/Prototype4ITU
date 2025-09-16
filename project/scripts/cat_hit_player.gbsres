@@ -1,0 +1,52 @@
+{
+  "_resourceType": "script",
+  "id": "699b70c7-d0cf-4adf-a3c9-8a030aa96a39",
+  "name": "Cat Hit Player",
+  "description": "Shakes the screen",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 3
+        },
+        "__collapse": false,
+        "__comment": true
+      },
+      "id": "5a41893e-43a1-4797-9286-8d72bb0e55a6"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.25,
+        "__collapse": false
+      },
+      "id": "18cbf084-ed90-4442-b8ab-550e0d672940"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1.5,
+        "frames": 30,
+        "__collapse": false
+      },
+      "id": "a1cf8dcf-d681-4d77-8e04-66c325dec19e"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "a3a779e3-9940-4925-a7a9-9c72b7ef005a"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "f89f819e-432a-40ad-a40d-b0ba792cfbb9",
   "_index": 0,
-  "name": "Scene 1",
+  "name": "Testing Ground",
   "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
   "tilesetId": "",
   "width": 20,
@@ -13,10 +13,12 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 197,
-  "y": 143,
+  "x": 208,
+  "y": 152,
   "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false,
+  "labelColor": ""
 }
