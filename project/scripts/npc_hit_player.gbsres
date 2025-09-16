@@ -1,0 +1,78 @@
+{
+  "_resourceType": "script",
+  "id": "e65746d0-e848-470f-9b40-f2fa0862813f",
+  "name": "NPC Hit Player",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "RunAway",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "NormalWalk",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "NPC"
+    }
+  },
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "0",
+        "speed": 2
+      },
+      "id": "69bc2035-1ddb-4316-aa6e-58893945b5d6"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V1",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "fde3c050-9cc0-438b-86e9-a834133880b9"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V0",
+        "value": {
+          "type": "number",
+          "value": 15
+        },
+        "__collapse": false
+      },
+      "id": "0db654a1-5c8d-4a82-8fbc-bd65e49f3708"
+    },
+    {
+      "command": "EVENT_ACTOR_PUSH",
+      "args": {
+        "continue": false
+      },
+      "id": "48681e25-debf-4941-9d58-73b0eb3c7eb1"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.1,
+        "frames": 30
+      },
+      "id": "4fe7d96e-4fc0-4937-ae9f-f9d93e21d083"
+    },
+    {
+      "command": "EVENT_STOP",
+      "args": {},
+      "id": "68558319-bdc7-4f5c-ad59-001e3cbc9106"
+    }
+  ]
+}

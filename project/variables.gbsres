@@ -8,13 +8,18 @@
     },
     {
       "id": "22a5c5af-485b-48f4-892c-476a55bf54c2__L1",
-      "name": "1",
-      "symbol": "var_1"
+      "name": "RunAway",
+      "symbol": "var_runaway_0"
     },
     {
       "id": "22a5c5af-485b-48f4-892c-476a55bf54c2__L2",
-      "name": "16",
-      "symbol": "var_16"
+      "name": "NormalWalk",
+      "symbol": "var_normalwalk_0"
+    },
+    {
+      "id": "22a5c5af-485b-48f4-892c-476a55bf54c2__L3",
+      "name": "MoveTimer",
+      "symbol": "var_movetimer"
     }
   ]
 }
