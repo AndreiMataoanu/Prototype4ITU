@@ -25,7 +25,8 @@
           "value": 0
         },
         "moveType": "horizontal",
-        "useCollisions": false
+        "useCollisions": false,
+        "__collapse": true
       },
       "id": "d21467f6-b848-41d2-b979-6ae491754fd9"
     },
@@ -42,7 +43,8 @@
           "value": 0
         },
         "moveType": "horizontal",
-        "useCollisions": false
+        "useCollisions": false,
+        "__collapse": true
       },
       "id": "a4713875-f411-41dc-b065-d3714ca12673"
     }

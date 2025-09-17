@@ -45,6 +45,16 @@
       "id": "be24ac71-5f7f-441f-949f-f53cb3ad015a__L1",
       "name": "Local 1",
       "symbol": "var_local_1"
+    },
+    {
+      "id": "6e6a266e-8cbd-4830-a9e1-f4513652a9c7__L0",
+      "name": "direction",
+      "symbol": "var_direction_0"
+    },
+    {
+      "id": "155c9272-414a-41e6-b60a-593ba47578e3__L0",
+      "name": "direction",
+      "symbol": "var_direction_0"
     }
   ]
 }

@@ -210,7 +210,8 @@
               "value": {
                 "type": "number",
                 "value": 0
-              }
+              },
+              "__collapse": true
             },
             "id": "d42cd1f8-058b-46ca-a8f2-291539be0c7f",
             "children": {}
@@ -247,7 +248,8 @@
               "value": {
                 "type": "number",
                 "value": 100
-              }
+              },
+              "__collapse": true
             },
             "id": "afb83640-264f-4e4a-bf6e-8d5e2075d712",
             "children": {}
@@ -279,7 +281,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": false,
+        "__collapse": true,
         "__comment": false
       },
       "id": "5b8a6e94-72a2-41e5-8573-d3173d4d38a3",
