@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "03bfb4e3-2f15-4122-b50f-770f6416df66",
-  "_index": 2,
-  "name": "Cutscene 2",
-  "backgroundId": "667617c1-2437-490d-96ac-bc794898478b",
+  "id": "9c5141ca-9b1b-4e26-bcff-2a7b8b659cf7",
+  "_index": 5,
+  "name": "Cutscene 3",
+  "backgroundId": "9940e501-f921-4a9e-bb97-e3bbcb8162e5",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,8 +12,8 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_0",
-  "x": 720,
+  "symbol": "scene_6",
+  "x": 888,
   "y": 216,
   "script": [
     {
@@ -22,15 +22,16 @@
         "actorId": "$self$",
         "__collapse": true
       },
-      "id": "1e0db937-1712-40f2-9e56-b5796beb9523"
+      "id": "e5c826fd-75b3-4b32-afd4-c3776816b4fd"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "OH NO!\nMy battery is\nabout to die!"
+          "I know! I will use\nthe shock feature.\n   \n          continue",
+          "Steal from\ncivilians and\nwatch out for \neverything else."
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 6,
         "maxHeight": 6,
@@ -42,18 +43,18 @@
         "showFrame": true,
         "speedIn": -1,
         "speedOut": -1,
-        "closeWhen": "text",
+        "closeWhen": "key",
         "closeButton": "any",
         "closeDelayTime": 3,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
-      "id": "687da2b9-b8be-4165-8df4-1216dc40e0e8"
+      "id": "0a3e8844-c0cb-47a7-8cbb-62a377f6aa45"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "9c5141ca-9b1b-4e26-bcff-2a7b8b659cf7",
+        "sceneId": "eb08d372-d850-46b0-9494-1ed31b346f13",
         "x": {
           "type": "number",
           "value": 0
@@ -63,12 +64,13 @@
           "value": 0
         },
         "direction": "",
-        "fadeSpeed": 0
+        "fadeSpeed": "2"
       },
-      "id": "a975a786-26c6-4583-9d05-fc6a33bdfe9e"
+      "id": "30ef661d-39c3-453b-a49e-e84a26d1ed1f"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

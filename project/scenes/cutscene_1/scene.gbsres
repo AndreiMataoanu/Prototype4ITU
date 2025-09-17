@@ -66,7 +66,7 @@
         },
         "direction": "",
         "fadeSpeed": 0,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "90f77406-fbde-4548-9fed-69c53e3dc747"
     }

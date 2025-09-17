@@ -12,6 +12,11 @@
       "symbol": "var_playercooldown"
     },
     {
+      "id": "2",
+      "name": "flag50",
+      "symbol": "var_flag50"
+    },
+    {
       "id": "22a5c5af-485b-48f4-892c-476a55bf54c2__L0",
       "name": "direction",
       "symbol": "var_direction"
@@ -55,11 +60,6 @@
       "id": "155c9272-414a-41e6-b60a-593ba47578e3__L0",
       "name": "direction",
       "symbol": "var_direction_1"
-    },
-    {
-      "id": "2",
-      "name": "flag50",
-      "symbol": "var_flag50"
     }
   ]
 }
