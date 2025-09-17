@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "69868177-9b60-4ee5-a1e2-dea19223c634",
+  "_index": 3,
+  "name": "Prototype4_FullScene_v2",
+  "backgroundId": "78656b58-d441-477c-8793-d5ab84065c5b",
+  "tilesetId": "",
+  "width": 100,
+  "height": 54,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "001518+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_0",
+  "x": 64,
+  "y": 656,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "8f1c1b9a-8bef-4035-8cac-5f43c4e272d4"
+}

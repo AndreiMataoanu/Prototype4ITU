@@ -1,8 +1,8 @@
 {
   "_resourceType": "settings",
-  "startSceneId": "",
-  "startX": 9,
-  "startY": 9,
+  "startSceneId": "69868177-9b60-4ee5-a1e2-dea19223c634",
+  "startX": 51,
+  "startY": 1,
   "startMoveSpeed": 1,
   "startAnimSpeed": 15,
   "startDirection": "down",
@@ -20,14 +20,14 @@
     "default-ui"
   ],
   "defaultSpritePaletteIds": [
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite",
-    "default-sprite"
+    "default-bg-1",
+    "default-bg-2",
+    "ebe671a6-4bfa-4569-ba65-3ec124a22150",
+    "b43fe79f-7f30-4199-b2dd-3dad954d9c22",
+    "6b18b029-6fc8-4dc5-ba88-77b5c01676ee",
+    "78b767a4-fe6b-42ed-bd85-ef9553f3fe1e",
+    "c6020301-f38d-466a-b8ef-3b1f73c1e82c",
+    "006d4547-a628-4376-ae02-337d30a5d322"
   ],
   "defaultSpritePaletteId": "default-sprite",
   "defaultUIPaletteId": "default-ui",
@@ -81,7 +81,7 @@
   "customControlsSelect": [
     "Shift"
   ],
-  "colorMode": "mono",
+  "colorMode": "color",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
   "scriptEventPresets": {},
