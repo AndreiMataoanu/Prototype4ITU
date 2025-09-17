@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "3806d12f-336c-47cc-8bda-67eb6fc2fc88",
+  "name": "PhoneDownload",
+  "symbol": "bg_phonedownload",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "PhoneDownload.png",
+  "tileColors": ""
+}

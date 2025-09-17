@@ -36,19 +36,33 @@
             "args": {
               "variable": "0",
               "value": {
-                "type": "sub",
+                "type": "max",
                 "valueA": {
-                  "type": "variable",
-                  "value": "0"
+                  "type": "min",
+                  "valueA": {
+                    "type": "sub",
+                    "valueA": {
+                      "type": "variable",
+                      "value": "0"
+                    },
+                    "valueB": {
+                      "type": "number",
+                      "value": 20
+                    }
+                  },
+                  "valueB": {
+                    "type": "number",
+                    "value": 100
+                  }
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 20
+                  "value": 0
                 }
               },
               "__collapse": true
             },
-            "id": "5f021f2f-8fac-41bb-9203-624f2e598869",
+            "id": "94334770-fb17-4ed1-ad08-6993d83143f0",
             "children": {}
           },
           {

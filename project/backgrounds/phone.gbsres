@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "770ff15c-b188-4f74-8fb4-f420f274484c",
+  "name": "Phone",
+  "symbol": "bg_phone",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Phone.png",
+  "tileColors": ""
+}

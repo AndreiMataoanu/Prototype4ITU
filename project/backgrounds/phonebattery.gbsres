@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "667617c1-2437-490d-96ac-bc794898478b",
+  "name": "PhoneBattery",
+  "symbol": "bg_phonebattery",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "PhoneBattery.png",
+  "tileColors": ""
+}

@@ -49,19 +49,34 @@
             "args": {
               "variable": "0",
               "value": {
-                "type": "sub",
+                "type": "max",
                 "valueA": {
-                  "type": "variable",
-                  "value": "0"
+                  "type": "min",
+                  "valueA": {
+                    "type": "sub",
+                    "valueA": {
+                      "type": "variable",
+                      "value": "0"
+                    },
+                    "valueB": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "valueB": {
+                    "type": "number",
+                    "value": 100
+                  }
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 10
+                  "value": 0
                 }
               },
               "__collapse": true
             },
-            "id": "910f36be-4994-403c-8cee-6a534156480b"
+            "id": "c5f55f45-d8e3-476a-938b-5991550eca33",
+            "children": {}
           },
           {
             "command": "EVENT_CAMERA_SHAKE",
