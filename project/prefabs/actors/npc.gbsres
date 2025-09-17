@@ -36,26 +36,19 @@
             "args": {
               "variable": "0",
               "value": {
-                "type": "min",
+                "type": "add",
                 "valueA": {
-                  "type": "add",
-                  "valueA": {
-                    "type": "variable",
-                    "value": "0"
-                  },
-                  "valueB": {
-                    "type": "number",
-                    "value": 10
-                  }
+                  "type": "variable",
+                  "value": "0"
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 100
+                  "value": 10
                 }
               },
               "__collapse": true
             },
-            "id": "75a084b2-5dad-4bd1-87a0-314c6b60101f"
+            "id": "338759e7-8077-45c2-b2b0-badc3786b05a"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -135,7 +128,8 @@
           }
         },
         "__collapseElse": true,
-        "__disableElse": true
+        "__disableElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [

@@ -17,36 +17,10 @@
           "type": "number",
           "value": 3
         },
-        "__collapse": false,
-        "__comment": true
+        "__collapse": true,
+        "__comment": false
       },
       "id": "5a41893e-43a1-4797-9286-8d72bb0e55a6"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 0.25,
-        "__collapse": false
-      },
-      "id": "18cbf084-ed90-4442-b8ab-550e0d672940"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 1.5,
-        "frames": 30,
-        "__collapse": false
-      },
-      "id": "a1cf8dcf-d681-4d77-8e04-66c325dec19e"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 1
-      },
-      "id": "a3a779e3-9940-4925-a7a9-9c72b7ef005a"
     }
   ]
 }
