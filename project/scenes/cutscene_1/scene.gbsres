@@ -1,0 +1,78 @@
+{
+  "_resourceType": "scene",
+  "id": "9a26c2de-ca2c-43e5-8bed-b14507e10916",
+  "_index": 1,
+  "name": "Cutscene 1",
+  "backgroundId": "3806d12f-336c-47cc-8bda-67eb6fc2fc88",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    null,
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 552,
+  "y": 216,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": true
+      },
+      "id": "85908501-197a-4fb5-87e3-02975097e0fb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Oh boy!\nThe download is\nalmost finished!"
+        ],
+        "__section": "layout",
+        "avatarId": "",
+        "minHeight": 6,
+        "maxHeight": 6,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 3,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "any",
+        "closeDelayTime": 3,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "4696a574-831a-4a54-a5ea-5da04d3af6c4"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "03bfb4e3-2f15-4122-b50f-770f6416df66",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 0,
+        "__collapse": true
+      },
+      "id": "90f77406-fbde-4548-9fed-69c53e3dc747"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -6,7 +6,14 @@
   "x": 39,
   "y": 16,
   "symbol": "trigger_1",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "1a8572de-5107-4675-997b-19884a2a7e71": {
+      "id": "1a8572de-5107-4675-997b-19884a2a7e71",
+      "args": {
+        "sceneId": "9a26c2de-ca2c-43e5-8bed-b14507e10916"
+      }
+    }
+  },
   "width": 1,
   "height": 2,
   "script": [],
