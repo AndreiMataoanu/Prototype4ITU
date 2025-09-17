@@ -55,6 +55,11 @@
       "id": "155c9272-414a-41e6-b60a-593ba47578e3__L0",
       "name": "direction",
       "symbol": "var_direction_1"
+    },
+    {
+      "id": "2",
+      "name": "flag50",
+      "symbol": "var_flag50"
     }
   ]
 }

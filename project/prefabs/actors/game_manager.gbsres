@@ -8,7 +8,7 @@
   "moveSpeed": 1,
   "animSpeed": 255,
   "paletteId": "",
-  "persistent": false,
+  "persistent": true,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "_index": 1,
@@ -57,9 +57,20 @@
       "command": "EVENT_ACTOR_HIDE",
       "args": {
         "actorId": "$self$",
-        "__collapse": true
+        "__collapse": true,
+        "__comment": true
       },
       "id": "6331c7ae-a02c-4ce7-a6ab-2bfe6da886c0"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "40f81050-a3b8-4a5d-b926-6d454d6d7173"
     }
   ],
   "updateScript": [
@@ -224,9 +235,71 @@
           "value": "0"
         },
         "__collapse": true,
-        "__comment": false
+        "__comment": false,
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "2"
+        }
       },
       "id": "9964e05c-60a5-43d1-bd2a-b31b518651b6"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 50
+          }
+        },
+        "__collapseElse": true,
+        "__comment": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "$00$%|$01$"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 3,
+              "maxHeight": 7,
+              "textX": 8,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "text",
+              "closeButton": "a",
+              "closeDelayTime": 1,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "cef0016b-0ae8-46a1-9799-ad3a643f7cf5"
+          },
+          {
+            "command": "EVENT_DEC_VALUE",
+            "args": {
+              "variable": "0",
+              "__collapse": true
+            },
+            "id": "31294998-2fe3-4ee5-9b20-7ad1373ce222"
+          }
+        ],
+        "false": []
+      },
+      "id": "dc825608-6dc4-4098-a173-602d477854d1"
     }
   ],
   "hit1Script": [],

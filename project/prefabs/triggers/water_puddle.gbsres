@@ -53,7 +53,7 @@
                   "value": 0
                 }
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "928f20cb-541b-4dc0-bf56-123346938f4d",
             "children": {}
@@ -101,7 +101,7 @@
                 "type": "number",
                 "value": 30
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "d11699a4-1ddb-4832-a370-343883ca9a11",
             "children": {}

@@ -40,7 +40,7 @@
                 "type": "number",
                 "value": 30
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "935e4770-cc65-42f3-b70b-f1a43d924462"
           },

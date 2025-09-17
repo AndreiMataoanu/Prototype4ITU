@@ -27,7 +27,8 @@
             "value": 99
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -44,7 +45,8 @@
                 "value": 0
               },
               "direction": "",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": true
             },
             "id": "b28ecae7-0de4-4773-a78c-6a41997bb9d1"
           }
@@ -72,9 +74,9 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "$00$ %"
+                      "$00$%|$01$"
                     ],
-                    "__section": "behavior",
+                    "__section": "text",
                     "avatarId": "",
                     "minHeight": 3,
                     "maxHeight": 7,
@@ -95,12 +97,12 @@
                   "id": "623fd13f-6956-47af-bcb1-1365a12bb628"
                 },
                 {
-                  "command": "EVENT_INC_VALUE",
+                  "command": "EVENT_DEC_VALUE",
                   "args": {
                     "variable": "V0",
                     "__collapse": true
                   },
-                  "id": "503b713a-5b85-4bc6-aadc-ed85e1c07376"
+                  "id": "cae6ac01-3585-40b5-9d6b-d56ec5239395"
                 }
               ],
               "false": [
@@ -126,9 +128,9 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "$00$ %"
+                            "$00$%|$01$"
                           ],
-                          "__section": "behavior",
+                          "__section": "text",
                           "avatarId": "",
                           "minHeight": 3,
                           "maxHeight": 7,
@@ -172,7 +174,8 @@
                               "value": 50
                             }
                           },
-                          "__collapseElse": false
+                          "__collapseElse": false,
+                          "__collapse": false
                         },
                         "children": {
                           "true": [
@@ -180,9 +183,9 @@
                               "command": "EVENT_TEXT",
                               "args": {
                                 "text": [
-                                  "$00$ %"
+                                  "$00$%|$01$"
                                 ],
-                                "__section": "behavior",
+                                "__section": "text",
                                 "avatarId": "",
                                 "minHeight": 3,
                                 "maxHeight": 7,
@@ -208,7 +211,7 @@
                                 "variable": "V0",
                                 "__collapse": true
                               },
-                              "id": "d6c305c9-62f7-4045-b006-c27ad1837a60"
+                              "id": "dbb7f34b-cb4a-4a42-b6e2-b5e1e711a66d"
                             }
                           ],
                           "false": [
@@ -216,7 +219,7 @@
                               "command": "EVENT_IF",
                               "args": {
                                 "condition": {
-                                  "type": "gte",
+                                  "type": "eq",
                                   "valueA": {
                                     "type": "variable",
                                     "value": "V0"
@@ -226,7 +229,8 @@
                                     "value": 25
                                   }
                                 },
-                                "__collapseElse": false
+                                "__collapseElse": false,
+                                "__collapse": false
                               },
                               "children": {
                                 "true": [
@@ -234,9 +238,9 @@
                                     "command": "EVENT_TEXT",
                                     "args": {
                                       "text": [
-                                        "$00$ %"
+                                        "$00$%|$01$"
                                       ],
-                                      "__section": "layout",
+                                      "__section": "text",
                                       "avatarId": "",
                                       "minHeight": 3,
                                       "maxHeight": 7,
@@ -280,8 +284,8 @@
                                           "value": 10
                                         }
                                       },
-                                      "__collapseElse": true,
-                                      "__disableElse": true
+                                      "__collapseElse": false,
+                                      "__disableElse": false
                                     },
                                     "children": {
                                       "true": [
@@ -289,9 +293,9 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "$00$ %"
+                                              "$00$%|$01$"
                                             ],
-                                            "__section": "behavior",
+                                            "__section": "text",
                                             "avatarId": "",
                                             "minHeight": 3,
                                             "maxHeight": 7,
@@ -314,12 +318,57 @@
                                         {
                                           "command": "EVENT_DEC_VALUE",
                                           "args": {
-                                            "variable": "V0"
+                                            "variable": "V0",
+                                            "__collapse": true
                                           },
                                           "id": "f5ad0267-6ade-41cd-80e2-3c8fcf507507"
                                         }
                                       ],
-                                      "false": []
+                                      "false": [
+                                        {
+                                          "command": "EVENT_IF",
+                                          "args": {
+                                            "condition": {
+                                              "type": "eq",
+                                              "valueA": {
+                                                "type": "variable",
+                                                "value": "V0"
+                                              },
+                                              "valueB": {
+                                                "type": "number",
+                                                "value": 0
+                                              }
+                                            },
+                                            "__collapseElse": true,
+                                            "__disableElse": true,
+                                            "__collapse": true
+                                          },
+                                          "children": {
+                                            "true": [
+                                              {
+                                                "command": "EVENT_SWITCH_SCENE",
+                                                "args": {
+                                                  "sceneId": "104efe63-2333-40c1-97f1-5240314901e5",
+                                                  "x": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                  },
+                                                  "y": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                  },
+                                                  "direction": "",
+                                                  "fadeSpeed": "2",
+                                                  "__collapse": true
+                                                },
+                                                "id": "32c557a9-48cc-42d6-ad96-27f0c2aa3b34"
+                                              }
+                                            ],
+                                            "false": []
+                                          },
+                                          "id": "b331b93b-5ad1-4633-8136-7e79719a5579"
+                                        }
+                                      ]
                                     },
                                     "id": "229ef6e8-7c72-46b3-8ed9-ec4428cc12d8"
                                   }

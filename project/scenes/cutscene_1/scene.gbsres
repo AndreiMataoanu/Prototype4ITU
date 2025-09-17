@@ -2,22 +2,21 @@
   "_resourceType": "scene",
   "id": "9a26c2de-ca2c-43e5-8bed-b14507e10916",
   "_index": 1,
-  "name": "Cutscene 1",
-  "backgroundId": "3806d12f-336c-47cc-8bda-67eb6fc2fc88",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [
-    null,
-    "dmg"
-  ],
-  "spritePaletteIds": [],
-  "collisions": "00168+",
-  "autoFadeSpeed": 1,
+  "name": "Cutscene 1",
   "symbol": "scene_3",
   "x": 552,
   "y": 216,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "3806d12f-336c-47cc-8bda-67eb6fc2fc88",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    "dmg"
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -74,5 +73,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "00168+"
 }
