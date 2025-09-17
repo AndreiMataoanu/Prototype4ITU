@@ -28,17 +28,31 @@
             "args": {
               "variable": "0",
               "value": {
-                "type": "sub",
+                "type": "max",
                 "valueA": {
-                  "type": "variable",
-                  "value": "0"
+                  "type": "min",
+                  "valueA": {
+                    "type": "sub",
+                    "valueA": {
+                      "type": "variable",
+                      "value": "0"
+                    },
+                    "valueB": {
+                      "type": "number",
+                      "value": 5
+                    }
+                  },
+                  "valueB": {
+                    "type": "number",
+                    "value": 100
+                  }
                 },
                 "valueB": {
                   "type": "number",
-                  "value": 5
+                  "value": 0
                 }
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "928f20cb-541b-4dc0-bf56-123346938f4d",
             "children": {}
