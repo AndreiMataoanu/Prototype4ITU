@@ -56,7 +56,8 @@
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$"
+        "actorId": "$self$",
+        "__collapse": true
       },
       "id": "6331c7ae-a02c-4ce7-a6ab-2bfe6da886c0"
     }
@@ -209,10 +210,23 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
         "__collapse": true,
-        "__comment": false
+        "__comment": true
       },
       "id": "5b8a6e94-72a2-41e5-8573-d3173d4d38a3",
       "children": {}
+    },
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "a80027d8-65e0-4aba-8b54-bec1b839b7f0",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "0"
+        },
+        "__collapse": true,
+        "__comment": false
+      },
+      "id": "9964e05c-60a5-43d1-bd2a-b31b518651b6"
     }
   ],
   "hit1Script": [],

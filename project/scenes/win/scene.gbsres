@@ -1,9 +1,9 @@
 {
   "_resourceType": "scene",
-  "id": "03bfb4e3-2f15-4122-b50f-770f6416df66",
-  "_index": 2,
-  "name": "Cutscene 2",
-  "backgroundId": "667617c1-2437-490d-96ac-bc794898478b",
+  "id": "d24109a2-63f3-45a0-a2a8-f00056102853",
+  "_index": 3,
+  "name": "Win",
+  "backgroundId": "770ff15c-b188-4f74-8fb4-f420f274484c",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -12,43 +12,41 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_0",
-  "x": 736,
-  "y": 216,
+  "symbol": "scene_4",
+  "x": 628,
+  "y": 628,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$",
-        "__collapse": true
+        "actorId": "$self$"
       },
-      "id": "1e0db937-1712-40f2-9e56-b5796beb9523"
+      "id": "af64b31f-9213-429e-82fb-d1f40b7cd39c"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "OH NO!\nMy battery is\nabout to die!"
+          "Ah. It finally\ndownloaded!"
         ],
         "__section": "behavior",
         "avatarId": "",
-        "minHeight": 6,
-        "maxHeight": 6,
+        "minHeight": 4,
+        "maxHeight": 7,
         "textX": 1,
         "textY": 1,
         "textHeight": 5,
         "position": "bottom",
         "clearPrevious": true,
-        "showFrame": true,
+        "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
-        "closeWhen": "text",
-        "closeButton": "any",
-        "closeDelayTime": 3,
-        "closeDelayFrames": 30,
-        "__collapse": false
+        "closeWhen": "notModal",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "687da2b9-b8be-4165-8df4-1216dc40e0e8"
+      "id": "7f4e9c1d-56ae-49a0-b87c-44b6c3f7514a"
     }
   ],
   "playerHit1Script": [],

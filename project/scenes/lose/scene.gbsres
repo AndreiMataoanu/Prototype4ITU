@@ -1,8 +1,8 @@
 {
   "_resourceType": "scene",
-  "id": "03bfb4e3-2f15-4122-b50f-770f6416df66",
-  "_index": 2,
-  "name": "Cutscene 2",
+  "id": "104efe63-2333-40c1-97f1-5240314901e5",
+  "_index": 4,
+  "name": "Lose",
   "backgroundId": "667617c1-2437-490d-96ac-bc794898478b",
   "tilesetId": "",
   "width": 20,
@@ -12,43 +12,41 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_0",
-  "x": 736,
-  "y": 216,
+  "symbol": "scene_5",
+  "x": 800,
+  "y": 632,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
       "args": {
-        "actorId": "$self$",
-        "__collapse": true
+        "actorId": "$self$"
       },
-      "id": "1e0db937-1712-40f2-9e56-b5796beb9523"
+      "id": "3f879189-1ecd-4422-a41f-04b8326c74f7"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "OH NO!\nMy battery is\nabout to die!"
+          "NOOOO! MY PHONE\nDIED!"
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
-        "minHeight": 6,
-        "maxHeight": 6,
+        "minHeight": 4,
+        "maxHeight": 7,
         "textX": 1,
         "textY": 1,
         "textHeight": 5,
         "position": "bottom",
         "clearPrevious": true,
-        "showFrame": true,
+        "showFrame": "true",
         "speedIn": -1,
         "speedOut": -1,
-        "closeWhen": "text",
-        "closeButton": "any",
-        "closeDelayTime": 3,
-        "closeDelayFrames": 30,
-        "__collapse": false
+        "closeWhen": "notModal",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "687da2b9-b8be-4165-8df4-1216dc40e0e8"
+      "id": "8f1b92a9-6064-49f9-8f81-4f98c6f44731"
     }
   ],
   "playerHit1Script": [],

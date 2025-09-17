@@ -93,14 +93,30 @@
             "id": "72e85bbe-5d21-46e5-ae07-aff0d4173843"
           },
           {
-            "command": "EVENT_ACTOR_EMOTE",
+            "command": "EVENT_TEXT",
             "args": {
-              "actorId": "$self$",
-              "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76",
+              "text": [
+                "$00$ %"
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 3,
+              "maxHeight": 7,
+              "textX": 8,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "text",
+              "closeButton": "a",
+              "closeDelayTime": 1,
+              "closeDelayFrames": 30,
               "__collapse": true
             },
-            "id": "bf2b50d2-aeb7-41f2-a2d8-1749148af243",
-            "children": {}
+            "id": "f5866b66-732d-47a6-ac81-852a30935762"
           }
         ],
         "false": []
