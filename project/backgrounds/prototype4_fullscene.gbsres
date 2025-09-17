@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b27ef013-1c3b-469d-94fc-c683c30d0825",
+  "name": "Prototype4_FullScene",
+  "symbol": "bg_prototype_fullscene",
+  "width": 120,
+  "height": 72,
+  "imageWidth": 960,
+  "imageHeight": 576,
+  "filename": "Prototype4_FullScene.png",
+  "tileColors": "",
+  "autoColor": false
+}
