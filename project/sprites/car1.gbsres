@@ -2,7 +2,7 @@
   "_resourceType": "sprite",
   "id": "44890b6f-53d6-4f7e-856b-d997339bce15",
   "name": "Car1",
-  "symbol": "sprite_prototype4_character_0",
+  "symbol": "sprite_prototype4_character",
   "numFrames": 6,
   "filename": "Car1.png",
   "checksum": "9720562496c5a07ab309cf062e65f2847c497266",

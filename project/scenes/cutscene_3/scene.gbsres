@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "9c5141ca-9b1b-4e26-bcff-2a7b8b659cf7",
-  "_index": 5,
+  "_index": 7,
   "name": "Cutscene 3",
   "backgroundId": "9940e501-f921-4a9e-bb97-e3bbcb8162e5",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_6",
+  "symbol": "scene_8",
   "x": 888,
   "y": 216,
   "script": [

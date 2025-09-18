@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "104efe63-2333-40c1-97f1-5240314901e5",
-  "_index": 4,
+  "_index": 6,
   "name": "Lose",
   "backgroundId": "fc89d1ce-9b0d-422d-bb7a-d04cc6feaef4",
   "tilesetId": "",
@@ -12,7 +12,7 @@
   "spritePaletteIds": [],
   "collisions": "00168+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_5",
+  "symbol": "scene_7",
   "x": 800,
   "y": 632,
   "script": [
