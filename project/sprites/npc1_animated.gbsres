@@ -67,7 +67,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 3,
+                  "paletteIndex": 4,
                   "priority": false
                 },
                 {
@@ -80,7 +80,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 3,
+                  "paletteIndex": 4,
                   "priority": false
                 }
               ]

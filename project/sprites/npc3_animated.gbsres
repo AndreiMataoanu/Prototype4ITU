@@ -31,7 +31,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 5,
+                  "paletteIndex": 6,
                   "priority": false
                 },
                 {
@@ -44,7 +44,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 5,
+                  "paletteIndex": 6,
                   "priority": false
                 }
               ]
