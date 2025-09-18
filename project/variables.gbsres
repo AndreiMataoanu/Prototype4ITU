@@ -74,42 +74,42 @@
     {
       "id": "8e285732-8705-4fb9-921b-3ea4aebf4adb__L0",
       "name": "direction",
-      "symbol": "var_direction"
+      "symbol": "var_direction_4"
     },
     {
       "id": "8e285732-8705-4fb9-921b-3ea4aebf4adb__L1",
       "name": "Cooldown",
-      "symbol": "var_cooldown"
+      "symbol": "var_cooldown_2"
     },
     {
       "id": "97d021da-e2b0-47dc-918d-55fa7949317b__L0",
       "name": "direction",
-      "symbol": "var_direction"
+      "symbol": "var_direction_5"
     },
     {
       "id": "97d021da-e2b0-47dc-918d-55fa7949317b__L1",
       "name": "Cooldown",
-      "symbol": "var_cooldown"
+      "symbol": "var_cooldown_3"
     },
     {
       "id": "86d4e4e2-ef1f-4bb6-abd4-be3cda5817d4__L0",
       "name": "direction",
-      "symbol": "var_direction"
+      "symbol": "var_direction_6"
     },
     {
       "id": "86d4e4e2-ef1f-4bb6-abd4-be3cda5817d4__L1",
       "name": "Cooldown",
-      "symbol": "var_cooldown"
+      "symbol": "var_cooldown_4"
     },
     {
       "id": "0b488670-fc97-4fea-b34a-94e97628e787__L0",
       "name": "direction",
-      "symbol": "var_direction"
+      "symbol": "var_direction_7"
     },
     {
       "id": "0b488670-fc97-4fea-b34a-94e97628e787__L1",
       "name": "Cooldown",
-      "symbol": "var_cooldown"
+      "symbol": "var_cooldown_5"
     }
   ]
 }

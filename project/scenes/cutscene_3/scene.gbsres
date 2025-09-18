@@ -29,7 +29,7 @@
       "args": {
         "text": [
           "I know! I will use\nthe shock feature.\n   \n          continue",
-          "Steal from\ncivilians and\nwatch out for \neverything else."
+          "Steal power from\nothers and avoid\ndangers of the\ncity.     continue"
         ],
         "__section": "text",
         "avatarId": "",
@@ -47,7 +47,7 @@
         "closeButton": "any",
         "closeDelayTime": 3,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "0a3e8844-c0cb-47a7-8cbb-62a377f6aa45"
     },

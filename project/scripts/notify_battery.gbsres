@@ -74,7 +74,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "$00$%|$01$"
+                      "$00$ %"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -92,7 +92,7 @@
                     "closeButton": "a",
                     "closeDelayTime": 1,
                     "closeDelayFrames": 30,
-                    "__collapse": true
+                    "__collapse": false
                   },
                   "id": "623fd13f-6956-47af-bcb1-1365a12bb628"
                 },
@@ -128,7 +128,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "$00$%|$01$"
+                            "$00$ %"
                           ],
                           "__section": "text",
                           "avatarId": "",
@@ -146,7 +146,7 @@
                           "closeButton": "a",
                           "closeDelayTime": 1,
                           "closeDelayFrames": 30,
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "54507f71-1ab2-4392-a8b4-1a3cc6914d84"
                       },
@@ -183,7 +183,7 @@
                               "command": "EVENT_TEXT",
                               "args": {
                                 "text": [
-                                  "$00$%|$01$"
+                                  "$00$ %"
                                 ],
                                 "__section": "text",
                                 "avatarId": "",
@@ -201,7 +201,7 @@
                                 "closeButton": "a",
                                 "closeDelayTime": 1,
                                 "closeDelayFrames": 30,
-                                "__collapse": true
+                                "__collapse": false
                               },
                               "id": "698c6d1e-ff5a-4076-9c66-6c3860d22bc0"
                             },
@@ -238,7 +238,7 @@
                                     "command": "EVENT_TEXT",
                                     "args": {
                                       "text": [
-                                        "$00$%|$01$"
+                                        "$00$ %"
                                       ],
                                       "__section": "text",
                                       "avatarId": "",
@@ -256,7 +256,7 @@
                                       "closeButton": "a",
                                       "closeDelayTime": 1,
                                       "closeDelayFrames": 30,
-                                      "__collapse": true
+                                      "__collapse": false
                                     },
                                     "id": "dc2f8c61-230c-4419-bc88-4b0983938bc2"
                                   },
@@ -293,7 +293,7 @@
                                           "command": "EVENT_TEXT",
                                           "args": {
                                             "text": [
-                                              "$00$%|$01$"
+                                              "$00$ %"
                                             ],
                                             "__section": "text",
                                             "avatarId": "",
@@ -311,7 +311,7 @@
                                             "closeButton": "a",
                                             "closeDelayTime": 1,
                                             "closeDelayFrames": 30,
-                                            "__collapse": true
+                                            "__collapse": false
                                           },
                                           "id": "532e07fa-53bd-4a4f-af67-3d3f0589e62d"
                                         },
@@ -341,7 +341,7 @@
                                             },
                                             "__collapseElse": true,
                                             "__disableElse": true,
-                                            "__collapse": true
+                                            "__collapse": false
                                           },
                                           "children": {
                                             "true": [

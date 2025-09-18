@@ -50,7 +50,7 @@
             "value": 0
           }
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "091c24e7-fd5e-411e-a4c6-d6e9a002d5ac",
       "children": {}

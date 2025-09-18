@@ -13,6 +13,16 @@
   "prefabScriptOverrides": {},
   "script": [
     {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
+        "__collapse": true
+      },
+      "id": "5fa699e1-b93f-4d67-8d08-13a7f646919d",
+      "children": {}
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "0",
@@ -41,20 +51,36 @@
             "value": 0
           }
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "94334770-fb17-4ed1-ad08-6993d83143f0",
       "children": {}
     },
     {
-      "command": "EVENT_ACTOR_EMOTE",
+      "command": "EVENT_TEXT",
       "args": {
-        "actorId": "$self$",
-        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
+        "text": [
+          "$00$ %"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 3,
+        "maxHeight": 7,
+        "textX": 8,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 0,
+        "speedOut": 0,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 1,
+        "closeDelayFrames": 30,
         "__collapse": true
       },
-      "id": "5fa699e1-b93f-4d67-8d08-13a7f646919d",
-      "children": {}
+      "id": "2091593b-cc35-43fc-9e66-555d82ab9817"
     }
   ],
   "startScript": [],
