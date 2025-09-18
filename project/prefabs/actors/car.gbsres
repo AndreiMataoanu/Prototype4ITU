@@ -130,7 +130,23 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "f3ab380a-d8db-4326-955e-870d28876846",
-        "__collapse": true
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 24
+        },
+        "$variable[V1]$": {
+          "type": "number",
+          "value": 23
+        },
+        "$variable[V2]$": {
+          "type": "number",
+          "value": 33
+        },
+        "$variable[V3]$": {
+          "type": "number",
+          "value": 23
+        }
       },
       "id": "5b88477d-3c2a-4b35-b4fd-8e6042ff8c8d",
       "children": {}
