@@ -11,17 +11,12 @@
     },
     "V1": {
       "id": "V1",
-      "name": "d1Y",
+      "name": "dY",
       "passByReference": true
     },
     "V2": {
       "id": "V2",
       "name": "d2X",
-      "passByReference": true
-    },
-    "V3": {
-      "id": "V3",
-      "name": "d2Y",
       "passByReference": true
     }
   },
@@ -46,7 +41,8 @@
           "value": "V1"
         },
         "moveType": "horizontal",
-        "useCollisions": false
+        "useCollisions": false,
+        "__collapse": true
       },
       "id": "33902fe3-e866-4d6f-9166-0175e4455acb"
     },
@@ -60,10 +56,11 @@
         },
         "y": {
           "type": "variable",
-          "value": "V3"
+          "value": "V1"
         },
         "moveType": "horizontal",
-        "useCollisions": false
+        "useCollisions": false,
+        "__collapse": true
       },
       "id": "0ec88a8f-687f-4907-91fd-2c9ed1c15b4d"
     }

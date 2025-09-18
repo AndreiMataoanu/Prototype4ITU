@@ -5,134 +5,84 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "364b2a02-7ab4-48e6-bbd3-3435fb470b85",
-  "moveSpeed": 0.5,
-  "animSpeed": 15,
+  "moveSpeed": 1,
+  "animSpeed": 63,
   "paletteId": "",
   "persistent": false,
   "collisionGroup": "1",
   "prefabScriptOverrides": {},
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_ACTOR_EMOTE",
       "args": {
-        "condition": {
-          "type": "eq",
+        "actorId": "$self$",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+        "__collapse": true
+      },
+      "id": "b3125c63-ed91-417d-ae96-c9899e23281b"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "max",
           "valueA": {
-            "type": "variable",
-            "value": "L1"
+            "type": "min",
+            "valueA": {
+              "type": "add",
+              "valueA": {
+                "type": "variable",
+                "value": "0"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "valueB": {
+              "type": "number",
+              "value": 100
+            }
           },
           "valueB": {
             "type": "number",
             "value": 0
           }
         },
-        "__collapseElse": true,
-        "__disableElse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_EMOTE",
-            "args": {
-              "actorId": "$self$",
-              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
-              "__collapse": true
-            },
-            "id": "b3125c63-ed91-417d-ae96-c9899e23281b"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "0",
-              "value": {
-                "type": "max",
-                "valueA": {
-                  "type": "min",
-                  "valueA": {
-                    "type": "add",
-                    "valueA": {
-                      "type": "variable",
-                      "value": "0"
-                    },
-                    "valueB": {
-                      "type": "number",
-                      "value": 10
-                    }
-                  },
-                  "valueB": {
-                    "type": "number",
-                    "value": 100
-                  }
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 0
-                }
-              },
-              "__collapse": true
-            },
-            "id": "091c24e7-fd5e-411e-a4c6-d6e9a002d5ac",
-            "children": {}
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "$00$ %"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 3,
-              "maxHeight": 7,
-              "textX": 8,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": 0,
-              "speedOut": 0,
-              "closeWhen": "text",
-              "closeButton": "a",
-              "closeDelayTime": 1,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "ca670850-8828-4193-a8ac-a085fe8a28f0"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "L1",
-              "value": {
-                "type": "number",
-                "value": 6
-              },
-              "__collapse": true,
-              "__comment": false
-            },
-            "id": "0e4e73c7-1a11-4282-9459-43b5274882f3"
-          }
-        ],
-        "false": []
-      },
-      "id": "47cb1714-e9c4-43ee-b6ee-48cad4aefd99"
-    }
-  ],
-  "startScript": [
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "L1",
-        "value": {
-          "type": "number",
-          "value": 0
-        },
         "__collapse": true
       },
-      "id": "ea709d45-8234-4f95-abe8-5a14008c4ad2"
+      "id": "091c24e7-fd5e-411e-a4c6-d6e9a002d5ac",
+      "children": {}
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "$00$ %"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 3,
+        "maxHeight": 7,
+        "textX": 8,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 0,
+        "speedOut": 0,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 1,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "ca670850-8828-4193-a8ac-a085fe8a28f0"
     }
   ],
+  "startScript": [],
   "updateScript": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -156,36 +106,14 @@
       "id": "c3daacc7-cc23-48a3-b0de-b04c551e44e6"
     },
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_WAIT",
       "args": {
-        "condition": {
-          "type": "gt",
-          "valueA": {
-            "type": "variable",
-            "value": "L1"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 0
-          }
-        },
-        "__collapseElse": true,
-        "__disableElse": true,
+        "time": 0.5,
+        "frames": 60,
+        "units": "frames",
         "__collapse": true
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_DEC_VALUE",
-            "args": {
-              "variable": "L1"
-            },
-            "id": "6c60f2b9-81a0-4316-ba56-ec1e70bd3c90"
-          }
-        ],
-        "false": []
-      },
-      "id": "5daebc32-9054-4f0e-a413-b2d18888553b"
+      "id": "54692cd3-349b-423f-a50d-24dffbde51e2"
     }
   ],
   "hit1Script": [],

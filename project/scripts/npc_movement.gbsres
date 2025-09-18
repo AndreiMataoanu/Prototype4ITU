@@ -8,16 +8,6 @@
       "id": "V0",
       "name": "direction",
       "passByReference": true
-    },
-    "V1": {
-      "id": "V1",
-      "name": "+speed",
-      "passByReference": true
-    },
-    "V2": {
-      "id": "V2",
-      "name": "-speed",
-      "passByReference": true
     }
   },
   "actors": {
@@ -32,8 +22,9 @@
       "command": "EVENT_WAIT",
       "args": {
         "time": 0,
-        "frames": 30,
-        "__collapse": false
+        "frames": 60,
+        "__collapse": true,
+        "units": "frames"
       },
       "id": "7833b861-ff63-490f-9b16-38a8cc2c875f"
     },
@@ -98,8 +89,8 @@
                 "value": 0
               },
               "y": {
-                "type": "variable",
-                "value": "V1"
+                "type": "number",
+                "value": 6
               },
               "moveType": "horizontal",
               "useCollisions": true
@@ -117,8 +108,8 @@
                 "value": 0
               },
               "y": {
-                "type": "variable",
-                "value": "V2"
+                "type": "number",
+                "value": -6
               },
               "moveType": "horizontal",
               "useCollisions": true
@@ -132,8 +123,8 @@
             "args": {
               "actorId": "0",
               "x": {
-                "type": "variable",
-                "value": "V2"
+                "type": "number",
+                "value": -6
               },
               "y": {
                 "type": "number",
@@ -151,8 +142,8 @@
             "args": {
               "actorId": "0",
               "x": {
-                "type": "variable",
-                "value": "V1"
+                "type": "number",
+                "value": 6
               },
               "y": {
                 "type": "number",

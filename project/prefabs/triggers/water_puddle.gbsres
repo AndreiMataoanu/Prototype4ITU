@@ -5,111 +5,73 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "condition": {
-          "type": "eq",
+        "variable": "0",
+        "value": {
+          "type": "max",
           "valueA": {
-            "type": "variable",
-            "value": "1"
+            "type": "min",
+            "valueA": {
+              "type": "sub",
+              "valueA": {
+                "type": "variable",
+                "value": "0"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 5
+              }
+            },
+            "valueB": {
+              "type": "number",
+              "value": 100
+            }
           },
           "valueB": {
             "type": "number",
             "value": 0
           }
         },
-        "__collapseElse": true,
-        "__disableElse": true,
-        "__collapse": false
+        "__collapse": true
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "0",
-              "value": {
-                "type": "max",
-                "valueA": {
-                  "type": "min",
-                  "valueA": {
-                    "type": "sub",
-                    "valueA": {
-                      "type": "variable",
-                      "value": "0"
-                    },
-                    "valueB": {
-                      "type": "number",
-                      "value": 5
-                    }
-                  },
-                  "valueB": {
-                    "type": "number",
-                    "value": 100
-                  }
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 0
-                }
-              },
-              "__collapse": false
-            },
-            "id": "928f20cb-541b-4dc0-bf56-123346938f4d",
-            "children": {}
-          },
-          {
-            "command": "EVENT_ACTOR_EMOTE",
-            "args": {
-              "actorId": "$self$",
-              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
-              "__collapse": true
-            },
-            "id": "04894329-0c4e-491c-ac16-1a4edbc024d2"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "$00$ %"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 3,
-              "maxHeight": 7,
-              "textX": 8,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": 0,
-              "speedOut": 0,
-              "closeWhen": "text",
-              "closeButton": "a",
-              "closeDelayTime": 1,
-              "closeDelayFrames": 30,
-              "__collapse": true
-            },
-            "id": "3173155d-1b1d-4629-a267-8ab58f3d56e2"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "1",
-              "value": {
-                "type": "number",
-                "value": 30
-              },
-              "__collapse": false
-            },
-            "id": "d11699a4-1ddb-4832-a370-343883ca9a11",
-            "children": {}
-          }
+      "id": "928f20cb-541b-4dc0-bf56-123346938f4d",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+        "__collapse": true
+      },
+      "id": "04894329-0c4e-491c-ac16-1a4edbc024d2"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "$00$ %"
         ],
-        "false": []
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 3,
+        "maxHeight": 7,
+        "textX": 8,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 0,
+        "speedOut": 0,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 1,
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
-      "id": "3da25e7c-dcf7-41c0-b712-2e399109401e"
+      "id": "3173155d-1b1d-4629-a267-8ab58f3d56e2"
     }
   ],
   "leaveScript": []

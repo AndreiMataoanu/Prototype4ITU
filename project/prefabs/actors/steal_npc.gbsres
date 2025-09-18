@@ -4,7 +4,7 @@
   "name": "Steal NPC",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "0fd27073-67bf-4ff3-a879-1d66960aca43",
+  "spriteSheetId": "f732c445-04e3-4876-a930-9f36f37461b5",
   "moveSpeed": 0.5,
   "animSpeed": 15,
   "paletteId": "",
@@ -13,85 +13,48 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "condition": {
-          "type": "eq",
+        "variable": "0",
+        "value": {
+          "type": "max",
           "valueA": {
-            "type": "variable",
-            "value": "1"
+            "type": "min",
+            "valueA": {
+              "type": "sub",
+              "valueA": {
+                "type": "variable",
+                "value": "0"
+              },
+              "valueB": {
+                "type": "number",
+                "value": 20
+              }
+            },
+            "valueB": {
+              "type": "number",
+              "value": 100
+            }
           },
           "valueB": {
             "type": "number",
             "value": 0
           }
         },
-        "__collapseElse": true,
-        "__disableElse": true
+        "__collapse": true
       },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "0",
-              "value": {
-                "type": "max",
-                "valueA": {
-                  "type": "min",
-                  "valueA": {
-                    "type": "sub",
-                    "valueA": {
-                      "type": "variable",
-                      "value": "0"
-                    },
-                    "valueB": {
-                      "type": "number",
-                      "value": 20
-                    }
-                  },
-                  "valueB": {
-                    "type": "number",
-                    "value": 100
-                  }
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 0
-                }
-              },
-              "__collapse": true
-            },
-            "id": "94334770-fb17-4ed1-ad08-6993d83143f0",
-            "children": {}
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "1",
-              "value": {
-                "type": "number",
-                "value": 30
-              },
-              "__collapse": true
-            },
-            "id": "34fdd85b-9d59-4816-88c9-99537a5ead1c",
-            "children": {}
-          },
-          {
-            "command": "EVENT_ACTOR_EMOTE",
-            "args": {
-              "actorId": "$self$",
-              "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
-              "__collapse": true
-            },
-            "id": "5fa699e1-b93f-4d67-8d08-13a7f646919d",
-            "children": {}
-          }
-        ],
-        "false": []
+      "id": "94334770-fb17-4ed1-ad08-6993d83143f0",
+      "children": {}
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
+        "__collapse": true
       },
-      "id": "65c338d0-9018-4db0-abdc-0c4a5e966700"
+      "id": "5fa699e1-b93f-4d67-8d08-13a7f646919d",
+      "children": {}
     }
   ],
   "startScript": [],
@@ -116,6 +79,16 @@
       },
       "id": "8c6a7b46-ac55-483b-8ed0-3ede90e8ae3b",
       "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 60,
+        "units": "frames",
+        "__collapse": true
+      },
+      "id": "a91ed54b-868f-4f37-983c-d9940172c3b6"
     }
   ],
   "hit1Script": [],
