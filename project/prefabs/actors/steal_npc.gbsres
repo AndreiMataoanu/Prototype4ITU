@@ -4,8 +4,8 @@
   "name": "Steal NPC",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "f732c445-04e3-4876-a930-9f36f37461b5",
-  "moveSpeed": 0.5,
+  "spriteSheetId": "0fd27073-67bf-4ff3-a879-1d66960aca43",
+  "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
   "persistent": false,
@@ -28,7 +28,7 @@
               },
               "valueB": {
                 "type": "number",
-                "value": 20
+                "value": 10
               }
             },
             "valueB": {
@@ -41,7 +41,7 @@
             "value": 0
           }
         },
-        "__collapse": true
+        "__collapse": false
       },
       "id": "94334770-fb17-4ed1-ad08-6993d83143f0",
       "children": {}

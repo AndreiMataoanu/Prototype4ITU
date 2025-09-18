@@ -4,7 +4,7 @@
   "name": "",
   "prefabId": "06ab3005-157d-435e-bff1-4f793251a102",
   "x": 39,
-  "y": 16,
+  "y": 14,
   "symbol": "trigger_1",
   "prefabScriptOverrides": {
     "1a8572de-5107-4675-997b-19884a2a7e71": {
@@ -15,7 +15,7 @@
     }
   },
   "width": 1,
-  "height": 2,
+  "height": 4,
   "script": [],
   "leaveScript": [],
   "_index": 0

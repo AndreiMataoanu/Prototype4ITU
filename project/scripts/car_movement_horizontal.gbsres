@@ -47,6 +47,16 @@
       "id": "33902fe3-e866-4d6f-9166-0175e4455acb"
     },
     {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "units": "frames",
+        "__collapse": true
+      },
+      "id": "2f7f4e95-b324-4319-9c5a-88a8a131c21c"
+    },
+    {
       "command": "EVENT_ACTOR_MOVE_TO",
       "args": {
         "actorId": "0",
@@ -63,6 +73,16 @@
         "__collapse": true
       },
       "id": "0ec88a8f-687f-4907-91fd-2c9ed1c15b4d"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "units": "frames",
+        "__collapse": true
+      },
+      "id": "044baecc-7e34-4e45-baec-2e057e6202b7"
     }
   ]
 }

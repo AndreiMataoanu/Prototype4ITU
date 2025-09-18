@@ -19,6 +19,15 @@
   "symbol": "script_3",
   "script": [
     {
+      "command": "EVENT_VARIABLE_MATH_EVALUATE",
+      "args": {
+        "variable": "V0",
+        "expression": "rnd(4)",
+        "__collapse": true
+      },
+      "id": "eab6d382-6099-4a06-9c13-39bc78341b34"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": 0,
@@ -27,15 +36,6 @@
         "units": "frames"
       },
       "id": "7833b861-ff63-490f-9b16-38a8cc2c875f"
-    },
-    {
-      "command": "EVENT_VARIABLE_MATH_EVALUATE",
-      "args": {
-        "variable": "V0",
-        "expression": "rnd(4)",
-        "__collapse": true
-      },
-      "id": "eab6d382-6099-4a06-9c13-39bc78341b34"
     },
     {
       "command": "EVENT_SWITCH",

@@ -1,10 +1,10 @@
 {
   "_resourceType": "actorPrefab",
-  "id": "22a5c5af-485b-48f4-892c-476a55bf54c2",
-  "name": "NPC",
+  "id": "97d021da-e2b0-47dc-918d-55fa7949317b",
+  "name": "NPC 2",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "364b2a02-7ab4-48e6-bbd3-3435fb470b85",
+  "spriteSheetId": "3a856944-f3bd-49f5-baac-4a4d482f0e1f",
   "moveSpeed": 1,
   "animSpeed": 63,
   "paletteId": "",
@@ -19,7 +19,8 @@
         "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
         "__collapse": true
       },
-      "id": "b3125c63-ed91-417d-ae96-c9899e23281b"
+      "id": "32b184ee-7627-4421-82be-1fd87aa0e21d",
+      "children": {}
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -37,7 +38,7 @@
               },
               "valueB": {
                 "type": "number",
-                "value": 4
+                "value": 8
               }
             },
             "valueB": {
@@ -50,9 +51,9 @@
             "value": 0
           }
         },
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "091c24e7-fd5e-411e-a4c6-d6e9a002d5ac",
+      "id": "6e7078f7-0e08-43e2-9b96-dc7369922a5e",
       "children": {}
     },
     {
@@ -79,7 +80,8 @@
         "closeDelayFrames": 30,
         "__collapse": true
       },
-      "id": "ca670850-8828-4193-a8ac-a085fe8a28f0"
+      "id": "14e058bf-9095-40ce-aed6-b3c65e45eb51",
+      "children": {}
     }
   ],
   "startScript": [],
@@ -103,7 +105,8 @@
         },
         "__comment": false
       },
-      "id": "c3daacc7-cc23-48a3-b0de-b04c551e44e6"
+      "id": "297dcc9f-80ab-4fed-9285-deda2cc2c793",
+      "children": {}
     },
     {
       "command": "EVENT_WAIT",
@@ -113,7 +116,8 @@
         "units": "frames",
         "__collapse": true
       },
-      "id": "54692cd3-349b-423f-a50d-24dffbde51e2"
+      "id": "8be6a1b2-7049-4647-8eda-7dc20b575e7a",
+      "children": {}
     }
   ],
   "hit1Script": [],

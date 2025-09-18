@@ -1,17 +1,26 @@
 {
   "_resourceType": "actorPrefab",
-  "id": "99666b24-cc04-4083-9209-61d2ae018830",
-  "name": "Car",
+  "id": "22a5c5af-485b-48f4-892c-476a55bf54c2",
+  "name": "NPC 1",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "44890b6f-53d6-4f7e-856b-d997339bce15",
-  "moveSpeed": 3,
-  "animSpeed": 255,
+  "spriteSheetId": "364b2a02-7ab4-48e6-bbd3-3435fb470b85",
+  "moveSpeed": 1,
+  "animSpeed": 63,
   "paletteId": "",
   "persistent": false,
   "collisionGroup": "1",
   "prefabScriptOverrides": {},
   "script": [
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+        "__collapse": true
+      },
+      "id": "b3125c63-ed91-417d-ae96-c9899e23281b"
+    },
     {
       "command": "EVENT_SET_VALUE",
       "args": {
@@ -21,14 +30,14 @@
           "valueA": {
             "type": "min",
             "valueA": {
-              "type": "sub",
+              "type": "add",
               "valueA": {
                 "type": "variable",
                 "value": "0"
               },
               "valueB": {
                 "type": "number",
-                "value": 10
+                "value": 8
               }
             },
             "valueB": {
@@ -41,24 +50,10 @@
             "value": 0
           }
         },
-        "__collapse": true
+        "__collapse": false
       },
-      "id": "c5f55f45-d8e3-476a-938b-5991550eca33",
+      "id": "091c24e7-fd5e-411e-a4c6-d6e9a002d5ac",
       "children": {}
-    },
-    {
-      "command": "EVENT_CAMERA_SHAKE",
-      "args": {
-        "time": 0.5,
-        "frames": 30,
-        "shakeDirection": "horizontal",
-        "magnitude": {
-          "type": "number",
-          "value": 2
-        },
-        "__collapse": true
-      },
-      "id": "72e85bbe-5d21-46e5-ae07-aff0d4173843"
     },
     {
       "command": "EVENT_TEXT",
@@ -66,7 +61,7 @@
         "text": [
           "$00$ %"
         ],
-        "__section": "behavior",
+        "__section": "text",
         "avatarId": "",
         "minHeight": 3,
         "maxHeight": 7,
@@ -84,7 +79,7 @@
         "closeDelayFrames": 30,
         "__collapse": true
       },
-      "id": "f5866b66-732d-47a6-ac81-852a30935762"
+      "id": "ca670850-8828-4193-a8ac-a085fe8a28f0"
     }
   ],
   "startScript": [],
@@ -92,28 +87,33 @@
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "f3ab380a-d8db-4326-955e-870d28876846",
-        "__collapse": false,
+        "customEventId": "7a549801-bc1b-4949-a5e4-3351d2af2aac",
         "$variable[V0]$": {
-          "type": "number",
-          "value": 24
+          "type": "variable",
+          "value": "L0"
         },
+        "__collapse": true,
         "$variable[V1]$": {
           "type": "number",
-          "value": 23
+          "value": 4
         },
         "$variable[V2]$": {
           "type": "number",
-          "value": 33
-        },
-        "$variable[V3]$": {
-          "type": "number",
-          "value": 23
+          "value": -4
         },
         "__comment": false
       },
-      "id": "5b88477d-3c2a-4b35-b4fd-8e6042ff8c8d",
-      "children": {}
+      "id": "c3daacc7-cc23-48a3-b0de-b04c551e44e6"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 60,
+        "units": "frames",
+        "__collapse": true
+      },
+      "id": "54692cd3-349b-423f-a50d-24dffbde51e2"
     }
   ],
   "hit1Script": [],

@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "9c5141ca-9b1b-4e26-bcff-2a7b8b659cf7",
-  "_index": 7,
+  "_index": 6,
   "name": "Cutscene 3",
   "backgroundId": "9940e501-f921-4a9e-bb97-e3bbcb8162e5",
   "tilesetId": "",
@@ -54,16 +54,16 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "eb08d372-d850-46b0-9494-1ed31b346f13",
+        "sceneId": "69868177-9b60-4ee5-a1e2-dea19223c634",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 42
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 14
         },
-        "direction": "",
+        "direction": "down",
         "fadeSpeed": "2"
       },
       "id": "30ef661d-39c3-453b-a49e-e84a26d1ed1f"

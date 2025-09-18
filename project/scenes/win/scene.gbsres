@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "d24109a2-63f3-45a0-a2a8-f00056102853",
-  "_index": 5,
+  "_index": 4,
   "name": "Win",
   "backgroundId": "04d62222-9fe7-49e2-80fa-865d4d8210ba",
   "tilesetId": "",
@@ -13,8 +13,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
-  "x": 632,
-  "y": 632,
+  "x": 1296,
+  "y": 528,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
