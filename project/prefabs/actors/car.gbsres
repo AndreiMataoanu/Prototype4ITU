@@ -1,0 +1,158 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "99666b24-cc04-4083-9209-61d2ae018830",
+  "name": "Car",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "number",
+                "value": 30
+              },
+              "__collapse": false
+            },
+            "id": "935e4770-cc65-42f3-b70b-f1a43d924462"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "max",
+                "valueA": {
+                  "type": "min",
+                  "valueA": {
+                    "type": "sub",
+                    "valueA": {
+                      "type": "variable",
+                      "value": "0"
+                    },
+                    "valueB": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "valueB": {
+                    "type": "number",
+                    "value": 100
+                  }
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapse": true
+            },
+            "id": "c5f55f45-d8e3-476a-938b-5991550eca33",
+            "children": {}
+          },
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 0.5,
+              "frames": 30,
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "number",
+                "value": 2
+              },
+              "__collapse": true
+            },
+            "id": "72e85bbe-5d21-46e5-ae07-aff0d4173843"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "$00$ %"
+              ],
+              "__section": "behavior",
+              "avatarId": "",
+              "minHeight": 3,
+              "maxHeight": 7,
+              "textX": 8,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": 0,
+              "speedOut": 0,
+              "closeWhen": "text",
+              "closeButton": "a",
+              "closeDelayTime": 1,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "f5866b66-732d-47a6-ac81-852a30935762"
+          }
+        ],
+        "false": []
+      },
+      "id": "a0f821b7-6078-4b5f-88a1-b44fd66bcb45"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "f3ab380a-d8db-4326-955e-870d28876846",
+        "__collapse": true,
+        "$variable[V0]$": {
+          "type": "number",
+          "value": 24
+        },
+        "$variable[V1]$": {
+          "type": "number",
+          "value": 23
+        },
+        "$variable[V2]$": {
+          "type": "number",
+          "value": 33
+        },
+        "$variable[V3]$": {
+          "type": "number",
+          "value": 23
+        }
+      },
+      "id": "5b88477d-3c2a-4b35-b4fd-8e6042ff8c8d",
+      "children": {}
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

@@ -1,0 +1,71 @@
+{
+  "_resourceType": "script",
+  "id": "f3ab380a-d8db-4326-955e-870d28876846",
+  "name": "Car Movement Horizontal",
+  "description": "Moves the car horizontally",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "d1X",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "d1Y",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "d2X",
+      "passByReference": true
+    },
+    "V3": {
+      "id": "V3",
+      "name": "d2Y",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Car"
+    }
+  },
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "variable",
+          "value": "V0"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V1"
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "33902fe3-e866-4d6f-9166-0175e4455acb"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "0",
+        "x": {
+          "type": "variable",
+          "value": "V2"
+        },
+        "y": {
+          "type": "variable",
+          "value": "V3"
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "0ec88a8f-687f-4907-91fd-2c9ed1c15b4d"
+    }
+  ]
+}

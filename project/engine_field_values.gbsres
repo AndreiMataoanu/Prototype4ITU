@@ -3,7 +3,11 @@
   "engineFieldValues": [
     {
       "id": "fade_style",
-      "value": 0
+      "value": 1
+    },
+    {
+      "id": "topdown_grid",
+      "value": 8
     }
   ]
 }

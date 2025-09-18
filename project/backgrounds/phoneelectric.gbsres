@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9940e501-f921-4a9e-bb97-e3bbcb8162e5",
+  "name": "PhoneElectric",
+  "symbol": "bg_phoneelectric",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "PhoneElectric.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,124 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "155c9272-414a-41e6-b60a-593ba47578e3",
+  "name": "Steal NPC",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "moveSpeed": 0.5,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "max",
+                "valueA": {
+                  "type": "min",
+                  "valueA": {
+                    "type": "sub",
+                    "valueA": {
+                      "type": "variable",
+                      "value": "0"
+                    },
+                    "valueB": {
+                      "type": "number",
+                      "value": 20
+                    }
+                  },
+                  "valueB": {
+                    "type": "number",
+                    "value": 100
+                  }
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapse": true
+            },
+            "id": "94334770-fb17-4ed1-ad08-6993d83143f0",
+            "children": {}
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "number",
+                "value": 30
+              },
+              "__collapse": true
+            },
+            "id": "34fdd85b-9d59-4816-88c9-99537a5ead1c",
+            "children": {}
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
+              "__collapse": true
+            },
+            "id": "5fa699e1-b93f-4d67-8d08-13a7f646919d",
+            "children": {}
+          }
+        ],
+        "false": []
+      },
+      "id": "65c338d0-9018-4db0-abdc-0c4a5e966700"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7a549801-bc1b-4949-a5e4-3351d2af2aac",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "$variable[V1]$": {
+          "type": "number",
+          "value": 4
+        },
+        "$variable[V2]$": {
+          "type": "number",
+          "value": -4
+        },
+        "__collapse": true
+      },
+      "id": "8c6a7b46-ac55-483b-8ed0-3ede90e8ae3b",
+      "children": {}
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": []
+}

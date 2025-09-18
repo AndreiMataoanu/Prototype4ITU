@@ -3,10 +3,10 @@
   "id": "default-bg-1",
   "name": "Default BG 1",
   "colors": [
-    "F8E8C8",
-    "D89048",
-    "A82820",
-    "301850"
+    "bd9cff",
+    "a48cee",
+    "5a5a8c",
+    "52527b"
   ],
   "defaultName": "Default BG 1",
   "defaultColors": [
