@@ -4,7 +4,7 @@
   "name": "NPC",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "spriteSheetId": "364b2a02-7ab4-48e6-bbd3-3435fb470b85",
   "moveSpeed": 0.5,
   "animSpeed": 15,
   "paletteId": "",
