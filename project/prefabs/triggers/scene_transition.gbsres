@@ -1,0 +1,27 @@
+{
+  "_resourceType": "triggerPrefab",
+  "id": "06ab3005-157d-435e-bff1-4f793251a102",
+  "name": "Scene Transition",
+  "prefabScriptOverrides": {},
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "9a26c2de-ca2c-43e5-8bed-b14507e10916",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "1a8572de-5107-4675-997b-19884a2a7e71",
+      "children": {}
+    }
+  ],
+  "leaveScript": []
+}

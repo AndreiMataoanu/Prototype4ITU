@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fc89d1ce-9b0d-422d-bb7a-d04cc6feaef4",
+  "name": "Lose",
+  "symbol": "bg_lose",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Lose.png",
+  "tileColors": "",
+  "autoColor": false
+}
