@@ -80,6 +80,16 @@
         "__collapse": true
       },
       "id": "ca670850-8828-4193-a8ac-a085fe8a28f0"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 15,
+        "units": "frames",
+        "__collapse": true
+      },
+      "id": "f8a6dbce-baec-4732-a74f-866d46d6ab83"
     }
   ],
   "startScript": [],

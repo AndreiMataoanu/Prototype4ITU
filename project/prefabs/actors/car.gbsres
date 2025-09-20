@@ -85,6 +85,16 @@
         "__collapse": true
       },
       "id": "f5866b66-732d-47a6-ac81-852a30935762"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 15,
+        "units": "frames",
+        "__collapse": true
+      },
+      "id": "8b67bf4b-e77a-48cd-b584-2f8ea7877b75"
     }
   ],
   "startScript": [],
@@ -93,7 +103,7 @@
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
         "customEventId": "f3ab380a-d8db-4326-955e-870d28876846",
-        "__collapse": false,
+        "__collapse": true,
         "$variable[V0]$": {
           "type": "number",
           "value": 24

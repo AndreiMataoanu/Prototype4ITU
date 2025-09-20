@@ -51,7 +51,7 @@
             "value": 0
           }
         },
-        "__collapse": false
+        "__collapse": true
       },
       "id": "6e7078f7-0e08-43e2-9b96-dc7369922a5e",
       "children": {}
@@ -82,6 +82,16 @@
       },
       "id": "14e058bf-9095-40ce-aed6-b3c65e45eb51",
       "children": {}
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 15,
+        "units": "frames",
+        "__collapse": true
+      },
+      "id": "e3881c36-3e71-42af-8a7e-861f71f7c851"
     }
   ],
   "startScript": [],

@@ -40,13 +40,30 @@
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "notModal",
-        "closeButton": "a",
+        "speedOut": 2,
+        "closeWhen": "key",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
       "id": "7f4e9c1d-56ae-49a0-b87c-44b6c3f7514a"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f89f819e-432a-40ad-a40d-b0ba792cfbb9",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "f066651c-055c-45c5-adf7-e8684a406f06"
     }
   ],
   "playerHit1Script": [],

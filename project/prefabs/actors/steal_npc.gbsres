@@ -13,14 +13,18 @@
   "prefabScriptOverrides": {},
   "script": [
     {
-      "command": "EVENT_ACTOR_EMOTE",
+      "command": "EVENT_CAMERA_SHAKE",
       "args": {
-        "actorId": "$self$",
-        "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 3
+        },
         "__collapse": true
       },
-      "id": "5fa699e1-b93f-4d67-8d08-13a7f646919d",
-      "children": {}
+      "id": "008b7143-db85-4a36-9462-7f926f121a0f"
     },
     {
       "command": "EVENT_SET_VALUE",
@@ -81,6 +85,16 @@
         "__collapse": true
       },
       "id": "2091593b-cc35-43fc-9e66-555d82ab9817"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 15,
+        "units": "frames",
+        "__collapse": true
+      },
+      "id": "55ed590e-1c49-4774-9b33-a1a7a12f5de3"
     }
   ],
   "startScript": [],

@@ -29,7 +29,7 @@
         "text": [
           "NOOOO! MY PHONE\nDIED!"
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 7,
@@ -40,13 +40,30 @@
         "clearPrevious": true,
         "showFrame": "true",
         "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "notModal",
-        "closeButton": "a",
+        "speedOut": 2,
+        "closeWhen": "key",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
       "id": "8f1b92a9-6064-49f9-8f81-4f98c6f44731"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "f89f819e-432a-40ad-a40d-b0ba792cfbb9",
+        "x": {
+          "type": "number",
+          "value": 7
+        },
+        "y": {
+          "type": "number",
+          "value": 23
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "215c3577-7377-4556-9f9a-075ef22dbb90"
     }
   ],
   "playerHit1Script": [],
